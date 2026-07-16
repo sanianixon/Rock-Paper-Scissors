@@ -9,7 +9,7 @@ Built using **Python, OpenCV, and MediaPipe**, the application performs live han
 ## 🎥 Demo
 
 <p align="center">
-  <img src="images/demo.gif" width="850">
+  <img src="demo.gif" width="850">
 </p>
 
 ---

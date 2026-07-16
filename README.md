@@ -1,11 +1,8 @@
-# ✊🤚✌️ AI Gesture-Controlled Rock Paper Scissors
+# ✊📄✂️ AI Rock Paper Scissors
 
-An AI-powered version of the classic **Rock, Paper, Scissors** game where players compete against the computer using **real-time hand gestures** detected through their webcam.
-
-Built using **Python, OpenCV, and MediaPipe**, the application performs live hand tracking and gesture recognition to create an interactive, touch-free gaming experience.
+A Python implementation of the classic **Rock, Paper, Scissors** game where players compete against an AI opponent. The computer makes its moves automatically, while the player selects Rock, Paper, or Scissors through an interactive interface. The game instantly determines the winner, keeps gameplay simple, and provides an engaging way to demonstrate Python programming and basic AI decision-making.
 
 ---
-
 ## 🎥 Demo
 
 <p align="center">
@@ -16,37 +13,34 @@ Built using **Python, OpenCV, and MediaPipe**, the application performs live han
 
 ## ✨ Features
 
-- 🖐️ Real-time hand gesture detection
-- 🤖 AI-powered Rock, Paper, Scissors gameplay
-- 📷 Webcam-based interaction
-- ⚡ Instant gesture recognition
-- 🎮 Touch-free user experience
-- 📊 Automatic winner detection
-- 🎨 Clean and interactive interface
-- 🚀 Fast real-time performance using OpenCV
+- 🎮 Interactive Rock, Paper, Scissors gameplay
+- 🤖 AI opponent with automatic move generation
+- ⚡ Instant winner detection
+- 🔄 Play unlimited rounds
+- 🎨 Simple and user-friendly interface
+- 🏆 Displays game results after every round
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python
-- OpenCV
-- MediaPipe
-- NumPy
+- Tkinter (or Pygame if that's what you used)
+- Random Module
 
 ---
 
 ## 🚀 How It Works
 
 1. Launch the application.
-2. The webcam starts capturing live video.
-3. MediaPipe detects and tracks your hand landmarks.
-4. The AI recognizes whether your gesture represents:
+2. Select either:
    - ✊ Rock
-   - ✋ Paper
-   - ✌️ Scissors
-5. The computer randomly selects its move.
-6. The winner is determined instantly and displayed on the screen.
+   - 📄 Paper
+   - ✂️ Scissors
+3. The AI randomly chooses its move.
+4. The game compares both selections.
+5. The winner is displayed instantly.
+6. Continue playing as many rounds as you'd like.
 
 ---
 
@@ -55,19 +49,13 @@ Built using **Python, OpenCV, and MediaPipe**, the application performs live han
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ai-rock-paper-scissors.git
+git clone https://github.com/yourusername/rock-paper-scissors.git
 ```
 
 Navigate into the project
 
 ```bash
-cd ai-rock-paper-scissors
-```
-
-Install dependencies
-
-```bash
-pip install -r requirements.txt
+cd rock-paper-scissors
 ```
 
 Run the project
@@ -78,30 +66,24 @@ python main.py
 
 ---
 
-## 🧠 AI & Computer Vision
+## 🧠 AI Logic
 
-This project demonstrates practical applications of:
+The computer opponent uses Python's built-in **random** module to simulate an AI player by selecting one of the three possible moves each round.
 
-- Computer Vision
-- Hand Landmark Detection
-- Gesture Recognition
-- Human-Computer Interaction
-- Real-Time Video Processing
-- OpenCV Image Processing
-- MediaPipe Hand Tracking
+The game then applies the standard Rock-Paper-Scissors rules to determine the winner.
 
 ---
 
 ## 💡 Learning Outcomes
 
-Through this project I explored:
+This project demonstrates:
 
-- Building real-time AI applications
-- Integrating MediaPipe with OpenCV
-- Image processing pipelines
-- Gesture-based interaction
-- Game logic implementation
-- Real-time computer vision systems
+- Python Programming
+- Conditional Logic
+- Randomized AI Decision Making
+- Game Development Fundamentals
+- User Interface Design
+- Event Handling
 
 ---
 
@@ -109,11 +91,19 @@ Through this project I explored:
 
 - Difficulty levels
 - Scoreboard
+- Best-of-three mode
+- Animated gameplay
+- Smarter AI based on player history
 - Multiplayer mode
-- Voice feedback
-- Animated UI
-- Additional gesture-based games
-- AI strategy instead of random moves
+- Sound effects
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are always welcome.
+
+Feel free to fork the repository and submit a pull request.
 
 ---
 
